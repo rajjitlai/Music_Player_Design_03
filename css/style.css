@@ -10,7 +10,7 @@ body {
   height: 120vh;
   width: 100%;
   background: linear-gradient(rgba(10, 10, 10, 0.11), rgba(0, 0, 0, 0.685)),
-    url(/img/music_back.jpg);
+    url(../img/music_back.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -160,6 +160,7 @@ span {
 
 #progress {
   -webkit-appearance: none;
+  appearance: none;
   width: 60%;
   height: 6px;
   cursor: pointer;
@@ -169,6 +170,7 @@ span {
 
 #progress::-webkit-slider-thumb {
   -webkit-appearance: none;
+  appearance: none;
   background: #000;
   width: 30px;
   height: 30px;

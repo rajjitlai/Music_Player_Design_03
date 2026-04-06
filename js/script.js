@@ -11,7 +11,7 @@ var wavesurfer = WaveSurfer.create({
 });
 
 // LOAD THE AUDIO FILE
-wavesurfer.load('/media/song2.mp3');
+wavesurfer.load('media/song2.mp3');
 
 let progress = document.getElementById('progress');
 let ctrlIcon = document.getElementById('ctrlIcon');
